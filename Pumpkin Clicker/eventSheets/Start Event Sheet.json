@@ -1,0 +1,32 @@
+{
+	"name": "Start Event Sheet",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 874763481601792,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Sprite3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 969779817500578,
+					"parameters": {
+						"layout": "\"Level One\""
+					}
+				}
+			],
+			"sid": 783603704332583
+		}
+	],
+	"sid": 636600125546824
+}
