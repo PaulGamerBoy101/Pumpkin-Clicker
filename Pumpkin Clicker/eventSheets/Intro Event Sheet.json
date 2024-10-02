@@ -1,0 +1,30 @@
+{
+	"name": "Intro Event Sheet",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 803606191109382,
+					"parameters": {
+						"interval-seconds": "5.0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 369943862715630,
+					"parameters": {
+						"layout": "\"Game Start Screen\""
+					}
+				}
+			],
+			"sid": 489757994481113
+		}
+	],
+	"sid": 404138756711313
+}

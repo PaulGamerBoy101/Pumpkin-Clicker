@@ -1,0 +1,80 @@
+{
+	"name": "Start Event Sheet",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 874763481601792,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Sprite3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 969779817500578,
+					"parameters": {
+						"layout": "\"Level One\""
+					}
+				}
+			],
+			"sid": 783603704332583
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 465517185469096,
+					"parameters": {
+						"object": "Sprite3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-cursor-style",
+					"objectClass": "Mouse",
+					"sid": 601597949419190,
+					"parameters": {
+						"cursor-style": "hand"
+					}
+				}
+			],
+			"sid": 579632246568945
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 155360529759668,
+					"parameters": {
+						"object": "Sprite7"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-cursor-style",
+					"objectClass": "Mouse",
+					"sid": 285765141321047,
+					"parameters": {
+						"cursor-style": "normal"
+					}
+				}
+			],
+			"sid": 531054538085531
+		}
+	],
+	"sid": 636600125546824
+}
