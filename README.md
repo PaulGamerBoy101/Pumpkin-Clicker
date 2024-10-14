@@ -6,4 +6,5 @@ _To Download Source File: Find the Branch With The Name of The Version You Want,
 # Following Editions Are Available:
 
 * C3P Edition (Versions 1-4)
+* [Itch.io](https://paulgamerboy101.itch.io/pumpkin-clicker-plus) (Version 4)
 * Windows Edition (Version 4)
